@@ -1,0 +1,37 @@
+/* Write CSS for the following:
+
+ Give body text a text-emphases.
+V Give heading a background-color. 
+V Set text with quote class in orange.
+V Give narrator quotes an outline-style and outline-color.
+V Set intro paragraphs in blue and add the transform property. */
+
+body {
+  text-emphasis: open;
+}
+
+h1 {
+  background-color: lightgray;
+}
+
+h2 {
+  background-color: rgb(226, 226, 226);
+}
+
+h3 {
+  background-color: rgb(219, 217, 234);
+}
+
+.quote {
+  color: orange;
+}
+
+.narrator {
+  outline-style: dashed;
+  outline-color: orangered;
+}
+
+#intro {
+  color: darkblue;
+  transform: scale(0.9, 0.9);
+}
